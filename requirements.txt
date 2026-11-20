@@ -1,0 +1,10 @@
+# Tested with Python 3.12-3.14. Lower bounds are the versions this project was built against.
+pandas>=3.0,<4
+duckdb>=1.1,<3
+pyarrow>=17
+matplotlib>=3.9,<4
+PyYAML>=6.0
+kaggle>=2.0,<3          # only needed for `--download`
+six
+python-dateutil>=2.9    # transitive dependency of kaggle
+pytest>=8               # tests

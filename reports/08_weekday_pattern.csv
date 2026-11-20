@@ -1,0 +1,8 @@
+day_name,is_weekend,trending_appearances,avg_views
+Monday,False,76526,2456912.0
+Tuesday,False,75674,2473244.0
+Wednesday,False,75698,2471839.0
+Thursday,False,76445,2441429.0
+Friday,False,76025,2412276.0
+Saturday,True,74858,2432972.0
+Sunday,True,74489,2471199.0

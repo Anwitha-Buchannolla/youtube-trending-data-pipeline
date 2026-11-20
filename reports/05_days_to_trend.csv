@@ -1,0 +1,16 @@
+category_name,avg_days_to_trend,median_days_to_trend,min_days,max_days
+Sports,1.38,1.0,0,28
+Film & Animation,1.41,1.0,0,13
+Music,1.42,1.0,0,30
+Gaming,1.45,1.0,0,17
+News & Politics,1.47,1.0,0,9
+Nonprofits & Activism,1.48,1.0,0,7
+Science & Technology,1.49,1.0,0,21
+Autos & Vehicles,1.54,1.0,0,29
+Entertainment,1.54,1.0,0,31
+Comedy,1.58,1.0,0,30
+Education,1.61,1.0,0,28
+Travel & Events,1.61,2.0,0,17
+Howto & Style,1.7,1.0,0,29
+People & Blogs,1.7,2.0,0,27
+Pets & Animals,1.98,2.0,0,22

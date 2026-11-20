@@ -1,0 +1,16 @@
+# YouTube Trending Videos Data Pipeline and Analytics - configuration
+kaggle:
+  dataset: rsrishav/youtube-trending-video-dataset   # YouTube Trending Video Dataset (updated daily)
+  # Only these regions are processed (file prefix before _youtube_trending_data.csv)
+  regions: [US, GB]   # each region's CSV is ~400 MB; add CA, IN, DE, FR, ... as needed
+
+paths:
+  raw_dir: data/raw
+  staging_dir: data/staging
+  warehouse: data/warehouse/youtube.duckdb
+  reports_dir: reports
+
+quality:
+  # Rows failing any of these are written to staging/rejected.csv instead of the warehouse
+  min_views: 0
+  max_title_length: 500
